@@ -78,7 +78,7 @@ print("Fiber cluster dictionaries created.")
 
 # Load pretrained model
 model = FiberClassifier()
-model_path = '/path/to/model/normal724.pth'
+model_path = '/path/to/model/classifier_swm+dwm.pth'
 state_dict = torch.load(model_path, map_location='cpu')
 
 # Clean 'module.' prefixes from DataParallel saving
