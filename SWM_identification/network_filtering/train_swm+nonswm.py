@@ -150,6 +150,6 @@ test_acc = corrects.double() / total
 print(f"Test Loss: {test_loss:.4f}, Accuracy: {test_acc:.4f}")
 
 '''
-model_path = f'{MODEL_SAVE_PATH}/normal724.pth'
+model_path = f'{MODEL_SAVE_PATH}/classifier_swm+dwm.pth'
 torch.save(model.state_dict(), model_path)
 '''
