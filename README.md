@@ -1,1 +1,1 @@
-The open source code for submission "Functional Anatomy and Topographical Organization of the Superficial White Matter"
+The processing pipeline to build a fine-grained Superficial White Matter (SWM) atlas, and conduct further functional analysis.
