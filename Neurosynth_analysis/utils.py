@@ -18,7 +18,7 @@ def get_api():
 
 
 def get_token():
-    return "838f56738ef535a75f5ba52cf0fa980ab7066e07"
+    return ""
 
 
 def create_collection(api, collection_name):
@@ -56,4 +56,5 @@ def read_json(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data
+
 
