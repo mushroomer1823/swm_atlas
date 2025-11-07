@@ -9,6 +9,7 @@ The repository provides tools for:
 ## Software requirements
 
 MATLAB 2024B
+
 Python packages (included in environment.yml):
   - numpy
   - torch
