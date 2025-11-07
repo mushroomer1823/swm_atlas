@@ -9,7 +9,7 @@ HP_freq = 0.01
 LP_freq = 0.1
 sampling_rate = 1. / TR
 
-# Base directory (replace with your actual path)
+# Base directory
 base_path = "/path/to/fMRI_data"
 
 def process_subject(subject):
