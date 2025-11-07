@@ -107,7 +107,7 @@ df_2nd = pd.DataFrame(results_2nd, columns=columns)
 df_top_values = pd.DataFrame(results_top_values, columns=columns_top_values)
 
 # Save to files using generic or relative paths (replace with your own target paths)
-output_dir = "/path/to/output_dir"  # <--- Replace with your own output directory path or keep generic
+output_dir = "/path/to/output_dir"
 
 df_1st.to_csv(os.path.join(output_dir, "top1_probability.csv"), index=False)
 df_2nd.to_csv(os.path.join(output_dir, "top2_probability.csv"), index=False)
