@@ -10,6 +10,8 @@ The repository provides tools for:
 
 MATLAB 2024B
 
+MRtrix3
+
 Python packages (included in environment.yml):
   - numpy
   - torch
