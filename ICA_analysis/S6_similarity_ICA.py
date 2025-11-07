@@ -71,7 +71,7 @@ def compute_column_probabilities(data_array, top_1_value, top_2_value):
 
 
 # Use relative or generic path instead of full local path
-data_dir = "/path/to/your/csv_files"  # <--- Replace with your actual directory path or keep generic
+data_dir = "/path/to/your/csv_files"
 file_list = glob.glob(os.path.join(data_dir, "*.csv"))
 
 results_1st = []
