@@ -79,7 +79,7 @@ results_2nd = []
 results_top_values = []
 
 for file in file_list:
-    print("Now processing:", os.path.basename(file))  # Only print the filename, hiding full path
+    print("Now processing:", os.path.basename(file))
     data_array = extract_values_from_csv(file)
     if np.any(data_array == 70):
         print("Value 70 detected in the array")
