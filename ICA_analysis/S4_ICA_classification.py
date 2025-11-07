@@ -1,7 +1,7 @@
 import nibabel as nib
 import numpy as np
 
-# Define base directory paths (change these to your actual paths)
+# Define base directory paths
 BASE_ICA_DIR = "/path/to/ICA"
 OUTPUT_DIR = "/path/to/output"
 
